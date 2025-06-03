@@ -1,64 +1,34 @@
 {
-   "name": "My PWA Demo",
+  "name": "My PWA Demo",
   "short_name": "PWA Demo",
-  "description": "A simple Progressive Web App demonstration.",
-  "start_url": "/index.html",
-  "display": "standalone", // <--- 更改這裡
+  "description": "一個展示 PWA 全螢幕模式的範例應用。",
+  "start_url": "index.html",
+  "scope": "/",
+  "display": "standalone",  
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
   "icons": [
     {
-      "src": "favicon-32.png",   // 根據您的檔案名稱調整
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-48.png",   // 根據您的檔案名稱調整
+      "src": "favicon-48.png",
       "sizes": "48x48",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "favicon-72.png",   // 根據您的檔案名稱調整
-      "sizes": "72x72",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-96.png",   // 根據您的檔案名稱調整
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-128.png",  // 根據您的檔案名稱調整
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-144.png",  // 根據您的檔案名稱調整
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-152.png",  // 根據您的檔案名稱調整
-      "sizes": "152x152",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-192.png",  // 或您的 icon.png (如果它是 192x192)
+      "src": "favicon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable" // "maskable" 是一個好選項，用於適應不同形狀的圖示
+      "purpose": "any maskable"
     },
     {
-      "src": "favicon-512.png",  // 如果您有 512x512 的圖示，也建議加入
+      "src": "favicon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
-    // 您可以根據擁有的圖示繼續添加更多尺寸
-    // 例如，如果您有 'favicon-180-precomposed.png'，可以這樣添加：
-    // {
-    //   "src": "favicon-180-precomposed.png",
-    //   "sizes": "180x180",
-    //   "type": "image/png"
-    // }
-  ]
+  ],
+  "splash_pages": null,
+  "related_applications": []
 }
