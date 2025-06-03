@@ -1,9 +1,9 @@
 {
-  "name": "My PWA Demo",
+   "name": "My PWA Demo",
   "short_name": "PWA Demo",
   "description": "A simple Progressive Web App demonstration.",
-  "start_url": "/index.html",  // 確保這是您 PWA 的起始頁面
-  "display": "minimal-ui",     // 或 "fullscreen", "minimal-ui"
+  "start_url": "/index.html",
+  "display": "standalone", // <--- 更改這裡
   "background_color": "#ffffff",
   "theme_color": "#007bff",
   "icons": [
