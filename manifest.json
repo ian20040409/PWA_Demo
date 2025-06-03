@@ -1,0 +1,64 @@
+{
+  "name": "My PWA Demo",
+  "short_name": "PWA Demo",
+  "description": "A simple Progressive Web App demonstration.",
+  "start_url": "/index.html",  // 確保這是您 PWA 的起始頁面
+  "display": "standalone",     // 或 "fullscreen", "minimal-ui"
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "favicon-32.png",   // 根據您的檔案名稱調整
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-48.png",   // 根據您的檔案名稱調整
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-72.png",   // 根據您的檔案名稱調整
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-96.png",   // 根據您的檔案名稱調整
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-128.png",  // 根據您的檔案名稱調整
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-144.png",  // 根據您的檔案名稱調整
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-152.png",  // 根據您的檔案名稱調整
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-192.png",  // 或您的 icon.png (如果它是 192x192)
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable" // "maskable" 是一個好選項，用於適應不同形狀的圖示
+    },
+    {
+      "src": "favicon-512.png",  // 如果您有 512x512 的圖示，也建議加入
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+    // 您可以根據擁有的圖示繼續添加更多尺寸
+    // 例如，如果您有 'favicon-180-precomposed.png'，可以這樣添加：
+    // {
+    //   "src": "favicon-180-precomposed.png",
+    //   "sizes": "180x180",
+    //   "type": "image/png"
+    // }
+  ]
+}
